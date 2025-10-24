@@ -1,0 +1,76 @@
+===============================================
+Data Dictionary for LendingClub Dataset
+===============================================
+
+This file provides brief descriptions of the variables used in the study
+(excluding interaction terms). The dataset is a subset of the publicly
+available LendingClub loan records (2007–2011).
+
+Variable Descriptions:
+----------------------
+
+purpose:
+    Stated purpose of the loan (e.g., wedding, medical, moving).
+
+loan_status:
+    Current status of the loan (1 = paid, 0 = default).
+
+loan_amnt:
+    The total loan amount funded by investors (USD).
+
+term:
+    Number of payments on the loan (1 = 60 months, 0 = 36 months).
+
+int_rate:
+    Annual interest rate on the loan (%).
+
+installment:
+    Monthly payment owed by the borrower.
+
+emp_length:
+    Employment length of the borrower (in years).
+
+annual_inc:
+    Annual income of the borrower (USD).
+
+verification_status:
+    Indicates whether the borrower’s income was verified (1 = verified, 0 = not verified).
+
+dti:
+    Debt-to-income ratio of the borrower (ratio of the monthly payments on the total debt obligations, excluding mortgage, to self-reported monthly income).
+
+delinq_2yrs:
+    Number of delinquency in the borrower’s credit file for the past 2 years.
+
+inq_last_6mths:
+    Number of inquiries by creditors during the past 6 months.
+
+open_acc:
+    Number of open credit lines in the borrower’s credit file.
+
+pub_rec:
+    Number of derogatory public records.
+
+revol_bal:
+    Total revolving credit balance (USD).
+
+revol_util:
+    Revolving line utilization rate, or the amount of credit the borrower is using relative to all available revolving credit.
+
+total_acc:
+    Total number of credit lines currently in the borrower’s credit file.
+
+pub_rec_bankruptcies:
+    Number of public record bankruptcies.
+
+grade:
+    Credit grade assigned by the platform (transformed to numbers from A–G).
+
+fico:
+    FICO credit score of the borrower.
+
+home_ownership_OWN:
+    Dummy variable indicating the borrower owns their home.
+
+home_ownership_RENT:
+    Dummy variable indicating the borrower rents their home.
